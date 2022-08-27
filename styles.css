@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.title {
+    font-family: 'Orbitron', sans-serif;
+    font-size:  50px;
+
+    /* flex gives access to commands controlling element position on page */
+    display: flex; 
+    /* justify-content controls main axis (default left-right axis) */
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+
+.calculator {
+    padding: 10px;
+    margin: auto;
+    /* 15vh = viewheight, 15% of total screen height (relative unit to viewport) **useful for responsive designs d*/
+    margin-top: 15vh;
+    width: 400px;
+    height: 380px;
+    background-color: #64278f;
+    border-radius: 10px;
+
+}
+
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    width: 95%;
+    height: 65%;
+    border: solid grey 5px;
+
+}
+
+/* CSS has stlying priority **id is most important (if element has tag name, class, & id specifiers) */
+#btn {
+    background-color: #ff5882;
+}
+
+.button {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #db77ff;
+    color: white;
+    border: solid grey 5px;
+    border-radius: 5px;
+    width: 100%;
+    height: 70%;
+}
+
+.button:active {
+    background: #ff7195;
+}
